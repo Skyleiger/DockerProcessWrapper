@@ -31,6 +31,7 @@ public class DockerProcessWrapper {
             System.out.println("Please enter the correct arguments.");
             System.out.println("Example: DockerProcessWrapper.jar --execute <command> --shutdown-command <shutdown-command> (--directory <directory>)");
             System.out.println("Use --help for help.");
+            return;
         }
 
         String commandString = (String) optionSet.valueOf("execute");
